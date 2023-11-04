@@ -83,13 +83,10 @@
 .rightdiv {
   height: 100%;
   width: 100%;
-  background: linear-gradient(
-    180deg,
-    var(--e-global-color-secondary) 0%,
-    var(--e-global-color-accent) 100%
-  );
+  background: linear-gradient(180deg, #2cffa5 0%, #81f 100%);
   border-radius: 50px;
-  transform: rotate(-120deg);
+  transform: rotate(2deg);
   position: absolute;
   top: 0px;
+  z-index: -1;
 }

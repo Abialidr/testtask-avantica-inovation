@@ -36,13 +36,13 @@ export default function Home() {
               width={41.61}
               className={styles.secondImage}
             ></Image>
-            {/* <img
+            <img
               src={
                 'https://demo.phlox.pro/agency-digital-2/wp-content/uploads/sites/260/2020/12/hero-img.jpg'
               }
               className={styles.thirdImage}
-            ></img> */}
-            <div className={styles.rightdiv}> helo</div>
+            ></img>
+            <div className={styles.rightdiv}></div>
           </div>
         </div>
       </section>
