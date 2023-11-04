@@ -14,6 +14,12 @@
   font-family: poppins;
 }
 .left {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
 }
 .left h2 {
   font-size: 80px;
@@ -21,7 +27,7 @@
   line-height: 1.2em;
   color: #fff;
   margin: 15px 0;
-  font-family: raleway !important;
+  font-weight: 600;
 }
 
 .left h2 span {
@@ -30,23 +36,42 @@
 
 .left h3 {
   font-size: 18px;
-  font-weight: 400;
   color: #ffbd10;
   margin: 0;
+  font-weight: normal;
 }
 
 .left p {
   color: #cbcbcb;
   font-size: 18px;
-  font-weight: 400;
   max-width: 547px;
+  line-height: 1.4em;
+  margin-top: 0px;
 }
 
 .left button {
   padding: 20px 41px 19px;
   font-weight: 500;
+  font-size: 18px;
   border-radius: 100px;
   color: #ff2759;
+  margin-top: 20px;
+}
+.left div {
+  height: fit-content;
+  width: 100%;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: start;
+}
+.left div div {
+  height: 45px;
+  width: 45px;
+  border-radius: 10px;
+  background-color: #111823;
 }
 
 .right {
@@ -68,25 +93,19 @@
   right: -40px;
 }
 .thirdImage {
-  /* position: absolute; */
   height: 100%;
   width: 100%;
-  /* left: 50%;
-  right: 50%; */
-  /* transform: translate(-50%, -50%); */
-  border-radius: 50px;
-  /* overflow: hidden; */
-}
 
-.thirdImageContainer {
+  border-radius: 50px;
 }
 .rightdiv {
   height: 100%;
-  width: 100%;
+  width: 95%;
   background: linear-gradient(180deg, #2cffa5 0%, #81f 100%);
   border-radius: 50px;
   transform: rotate(2deg);
   position: absolute;
   top: 0px;
+  left: -2px;
   z-index: -1;
 }
