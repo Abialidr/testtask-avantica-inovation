@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+
   images: {
     domains: [
       'https://demo.phlox.pro',
